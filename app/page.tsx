@@ -8,14 +8,20 @@ const Home = async () => {
   );
   const data: ITask[] = await response.json();
   return (
-    <div className="">
-      <h1 className="text-4xl font-bold mb-6">Task Tracker</h1>
-      <ul className="">
-        {data.map((task) => (
-          <TaskItem key={task.id} task={task} />
-        ))}
-      </ul>
-    </div>
+  <main className="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
+  <div className="max-w-3xl mx-auto">
+    <h1 className="text-4xl font-extrabold text-center text-gray-900 mb-8">
+      Task Tracker
+    </h1>
+    <ul className="space-y-4">
+      {data.map((task) => (
+        <li key={task.id}>
+          <TaskItem task={task} />
+        </li>
+      ))}
+    </ul>
+  </div>
+</main>
   );
 };
 
