@@ -1,5 +1,6 @@
 import { ITask } from "@/types/type";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 interface IProps {
@@ -7,7 +8,7 @@ interface IProps {
 }
 const TaskItem = ({ task }: IProps) => {
   return (
-    <div>
+    <Link href={`/task/${task.id}`}>
         <h4>{task.title}</h4>
       <div className="flex  items-center">
         <Image
@@ -18,7 +19,7 @@ const TaskItem = ({ task }: IProps) => {
         />
         <p>{task.completed ? "Completed" : "Pending"}</p>
       </div>
-    </div>
+    </Link>
   );
 };
 
