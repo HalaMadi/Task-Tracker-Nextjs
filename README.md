@@ -11,7 +11,6 @@ This is a simple task tracker application where you can view, manage, and track 
 
 ## Technologies Used 🛠️
 
-- **React** ⚛️: For building the user interface.
 - **Next.js** 🌍: For server-side rendering and API routes.
 - **TypeScript** ⌨️: For adding type safety and improving code quality.
 - **React-hot-toast** 🔔: For showing success and error notifications.
