@@ -1,6 +1,6 @@
-export interface ITask{
-    priority: ReactNode;
-    id:number;
-    title:string;
-    completed:boolean
+export interface ITask {
+    id: number;
+    title: string;
+    completed: boolean;
+    priority: "High" | "Medium" | "Low";
 }
