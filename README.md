@@ -20,5 +20,8 @@ This is a simple task tracker application where you can view, and track the stat
 - **JSONPlaceholder API**: For mock task data.
 
 ## UI
+![Home page](./screenshots/screen1.png)
+![Task Details](./screenshots/screen2.png)
+
 
 
