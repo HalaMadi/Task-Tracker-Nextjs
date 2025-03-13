@@ -29,3 +29,7 @@ This is a simple task tracker application where you can view, manage, and track 
 
 <img src="public/screenshots/screen2.png" alt="Task Details" width="500" height="auto" style="border-radius: 10px; border: 2px solid #ccc; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); margin-bottom: 20px;"/>
 
+### 404 Page
+
+<img src="public/screenshots/screen3.png" alt="404 Not Found" width="500" height="auto" style="border-radius: 10px; border: 2px solid #ccc; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); margin-bottom: 20px;"/>
+
